@@ -2,10 +2,10 @@ import Logo from "../../assets/images/footer-logo.png";
 import Instagram from "../../assets/images/insta.png";
 import Telegram from "../../assets/images/tele.png";
 import Twitter from "../../assets/images/twitter.png";
-import { FaAngleDown } from "react-icons/fa";
+// import { FaAngleDown } from "react-icons/fa";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import "./style.css";
-const account = "0x5400EdD0e597527C7e9651fC4A48f1b1f3Aa0d17";
+const account = "0xc748673057861a797275CD8A068AbB95A902e8de";
 const Footer = () => {
   return (
     <>
@@ -83,17 +83,13 @@ const socialList = [
 
 const ClipBoard = () => (
   <div
-    className="bg-primary-500 rounded-2xl  py-4 lg:py-14 px-4 lg:px-10 xl:px-14 copy-board shadow-xl w-11/12 max-w-3xl mx-auto"
+    className="bg-primary-500 rounded-2xl  py-4 lg:py-10 px-4 lg:px-10 xl:px-14 copy-board shadow-xl w-11/12 max-w-3xl mx-auto"
     style={{ transform: "translateY(-50%)" }}
   >
+    <h4 className="font-bold text-center text-lg mb-4">
+      Ethereum Contract Address
+    </h4>
     <div className="bg-white rounded-xl p-1 flex items-center justify-between">
-      {/* <div className="flex items-center justify-between lg:ml-4">
-          <img src={Bsc} alt="" className="w-8" />
-          <span className="text-black ml-2 text-xl inline-block font-bold">
-            BSC
-          </span>
-          <FaAngleDown />
-        </div> */}
       <p className="font-medium text-gray-700 sm:hidden ml-2">
         {account.slice(0, 8) + "..." + account.slice(account.length - 5)}
       </p>
