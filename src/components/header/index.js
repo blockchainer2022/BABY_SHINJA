@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect, useRef } from "react";
 import Instagram from "../../assets/images/insta.png";
 import Telegram from "../../assets/images/tele.png";
