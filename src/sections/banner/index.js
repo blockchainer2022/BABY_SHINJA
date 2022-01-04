@@ -45,7 +45,7 @@ const Banner = () => {
           <img src={Shinja} alt="" className=" max-w-sm w-full mx-auto" />
           <button className="flex items-center banner-btn">
             <img src={uniswap} alt="" />
-            <p>Buy On Uniswap</p>
+            <p>Buy On PancakeSwap</p>
           </button>
           <ul className="flex justify-center  -mt-5">
             {socialList.map((v, i) => (
