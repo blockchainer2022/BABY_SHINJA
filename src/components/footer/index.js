@@ -12,14 +12,14 @@ const Footer = () => {
       <div className="pb-10  bg-dark-500 mt-40">
         <ClipBoard />
         <div className="container">
-          <div className="grid md:grid-cols-4 gap-8 items-center">
+          <div className="grid grid-flow-col justify-start gap-8 items-center">
             <div>
               <img src={Logo} alt="" />
               <p className="font-medium text-white mt-2">
-                Baby Shinja is an Defender of The INU Metaverse
+                Baby Shinja is an Defender of The Dog Universe
               </p>
             </div>
-            <div className=" col-span-2">
+            {/* <div className=" col-span-2">
               <h3 className="text-primary-500  font-bold text-2xl">
                 Get In Touch
               </h3>
@@ -28,7 +28,7 @@ const Footer = () => {
                 the email address and hit a Subscribe button to stay Up To Date
                 with Us.
               </p>
-            </div>
+            </div> */}
             <div className="">
               <h3 className="text-primary-500  font-bold text-2xl">
                 Follow Us
@@ -44,7 +44,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div>
+          {/* <div>
             <div className="input-wrapper border border-primary-500 rounded-md  max-w-sm flex justify-between mx-auto w-full mt-7">
               <input
                 type="text"
@@ -55,7 +55,7 @@ const Footer = () => {
                 Subscribe
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="text-center bg-dark-400 text-white py-4 mt-10">
           <p>Copyrights © 2021 Baby Shinja</p>
@@ -86,9 +86,7 @@ const ClipBoard = () => (
     className="bg-primary-500 rounded-2xl  py-4 lg:py-10 px-4 lg:px-10 xl:px-14 copy-board shadow-xl w-11/12 max-w-3xl mx-auto"
     style={{ transform: "translateY(-50%)" }}
   >
-    <h4 className="font-bold text-center text-lg mb-4">
-      Ethereum Contract Address
-    </h4>
+    <h4 className="font-bold text-center text-lg mb-4">Contract Address</h4>
     <div className="bg-white rounded-xl p-1 flex items-center justify-between">
       <p className="font-medium text-gray-700 sm:hidden ml-2">
         {account.slice(0, 8) + "..." + account.slice(account.length - 5)}

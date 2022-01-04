@@ -10,7 +10,7 @@ const Roadmap = () => {
       " Launch Website",
       " Launch Socials",
       "Test-net Launch",
-      "Uniswap Launch",
+      "PancakeSwap Launch",
       "Audit",
       " Marketing",
     ],
@@ -69,7 +69,7 @@ const Roadmap = () => {
                 className="flex items-center mb-2 transition-all duration-500"
                 key={i}
               >
-                <img src={Check} alt="" className="w-5 sm:w-6 mr-2" />
+                <span className="text-white mr-2">&bull;</span>
                 <p className="text-white text-base sm:text-xl">{val}</p>
               </div>
             ))}

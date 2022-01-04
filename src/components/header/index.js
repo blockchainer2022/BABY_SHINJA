@@ -53,9 +53,9 @@ const Header = () => {
         </div>
         <button
           className=" cursor-pointer text-2xl md:hidden "
-          onClick={menuHandler}
+          // onClick={menuHandler}
         >
-          <HiMenuAlt3 />
+          <img src={Telegram} alt="" className="w-8" />
         </button>
       </div>
       <div

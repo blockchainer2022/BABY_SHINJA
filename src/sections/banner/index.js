@@ -1,6 +1,23 @@
 import "./style.css";
 import Shinja from "../../assets/images/banner-right.png";
 import uniswap from "../../assets/images/uniswap.png";
+import Instagram from "../../assets/images/insta.png";
+import Telegram from "../../assets/images/tele.png";
+import Twitter from "../../assets/images/twitter.png";
+const socialList = [
+  {
+    icon: Instagram,
+    link: "#",
+  },
+  {
+    icon: Telegram,
+    link: "#",
+  },
+  {
+    icon: Twitter,
+    link: "#",
+  },
+];
 const Banner = () => {
   return (
     <div className="banner">
@@ -13,14 +30,14 @@ const Banner = () => {
           <h1 className="uppercase text-5xl text-white font-bold">
             <span className="text-primary-500">DEFENDER</span>
             <br />
-            <span>of The INU METAVERSE</span>
+            <span>OF THE DOG UNIVERSE</span>
           </h1>
           <div className="grid  sm:grid-flow-col gap-4 mt-10 justify-center lg:justify-start">
             <button className="bg-white max-w-max text-dark-300 border-primary-500 border uppercase text-base py-3 px-10 font-semibold rounded-md mx-auto sm:mx-0">
-              Read Woofpaper v1
+              READ LITEPAPER
             </button>
             <button className="bg-primary-500 max-w-max text-white border-primary-500 border uppercase text-base py-3 px-8 font-semibold rounded-md  mx-auto sm:mx-0">
-              Buy on uniswap
+              VIEW CHART
             </button>
           </div>
         </div>
@@ -30,6 +47,15 @@ const Banner = () => {
             <img src={uniswap} alt="" />
             <p>Buy On Uniswap</p>
           </button>
+          <ul className="flex justify-center  -mt-5">
+            {socialList.map((v, i) => (
+              <li key={i}>
+                <a href={v.link} className="mx-4 py-4 d-block">
+                  <img src={v.icon} alt="" className="w-6 mx-2" />
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

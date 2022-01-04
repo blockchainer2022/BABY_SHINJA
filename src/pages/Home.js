@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -19,11 +20,11 @@ const Home = () => {
       <Banner />
       <Mission />
       <Platforms />
-      <Metaverse />
+      {/* <Metaverse /> */}
       <Tokenomics />
       <Tax />
       <Roadmap />
-      <Team />
+      {/* <Team /> */}
       <Community />
       <Footer />
     </div>

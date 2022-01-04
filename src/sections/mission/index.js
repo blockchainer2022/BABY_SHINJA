@@ -17,14 +17,14 @@ const Mission = () => {
             data-aos="fade-left"
           >
             <p className="text-base text-dark-300">
-              Baby Shinja is your leader within the Inu ecosystem and strives to
+              Baby Shinja is your leader within the dog ecosystem and strives to
               build trust and welfare for his community. His target is to build
               a self-feeding ecosystem that fights against intruders and allows
-              holders to conquer the Inu metaverse, benefiting from winning and
+              holders to conquer the dog metaverse, benefiting from winning and
               earning rewards while saving the world.
             </p>
             <p className="text-base mt-6 text-dark-300">
-              Baby Shinja seeks to partner up with other Inu tokens and
+              Baby Shinja seeks to partner up with other dog tokens and
               influencers by showing its strengths through comics, merchandise,
               and innovative strategies.
             </p>

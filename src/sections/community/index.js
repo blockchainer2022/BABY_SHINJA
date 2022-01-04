@@ -9,11 +9,11 @@ const Community = () => {
         <div className="grid md:grid-cols-2 gap-y-10 mt-28 items-end">
           <h4 className="text-4xl font-bold text-white" data-aos="fade-right">
             Join the <span className="text-primary-500">Baby Shinja</span>{" "}
-            community and let's ride together to the Inuverse!
+            community and let's ride together to the Dog Universe!
           </h4>
           <div className="">
             <button
-              className="bg-gray items-center py-4  text-primary-500 flex justify-center rounded-lg w-full text-center text-xl font-medium"
+              className="bg-gray items-center py-4 text-blue-600 flex justify-center rounded-lg w-full text-center text-xl font-medium"
               data-aos="fade-left"
             >
               <span>

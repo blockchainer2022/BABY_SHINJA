@@ -26,11 +26,11 @@ const data = [
 const data2 = [
   {
     icon: WhitePaper,
-    title: "Whitepaper",
+    title: "Lightpaper",
   },
   {
     icon: Contracts,
-    title: " EthScan contract",
+    title: "BscScan contract",
   },
   {
     icon: Chart,
