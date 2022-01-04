@@ -5,7 +5,10 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="container grid grid-cols-1 gap-y-10 lg:gap-y-0 lg:grid-cols-2 items-center gap-2 py-28">
-        <div className="text-center lg:text-left order-2 lg:order-1">
+        <div
+          className="text-center lg:text-left order-2 lg:order-1"
+          data-aos="fade-right"
+        >
           <h2 className="uppercase text-2xl text-primary-400">Baby Shinja</h2>
           <h1 className="uppercase text-5xl text-white font-bold">
             <span className="text-primary-500">DEFENDER</span>
@@ -21,7 +24,7 @@ const Banner = () => {
             </button>
           </div>
         </div>
-        <div className="lg:order-2">
+        <div className="lg:order-2" data-aos="fade-left">
           <img src={Shinja} alt="" className=" max-w-sm w-full mx-auto" />
           <button className="flex items-center banner-btn">
             <img src={uniswap} alt="" />

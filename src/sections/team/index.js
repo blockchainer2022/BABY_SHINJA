@@ -41,6 +41,8 @@ const Team = () => {
             <div
               key={i}
               className="bg-transparent border-2 border-primary-500 text-center rounded-xl text-white py-8  px-4 cursor-pointer "
+              data-aos="fade-up"
+              data-aos-delay={`${300 * i}`}
             >
               <div className="flex justify-center">
                 <img src={val.icon} alt="" />

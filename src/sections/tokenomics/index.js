@@ -32,6 +32,8 @@ const Tokenomics = () => {
             <div
               key={i}
               className="bg-dark-600 text-center rounded-xl text-white py-16 p-8 px-6 pb-10 cursor-pointer "
+              data-aos="fade-up"
+              data-aos-delay={`${300 * i}`}
             >
               <div className="flex justify-center">
                 <img src={val.icon} alt="" />

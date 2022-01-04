@@ -5,20 +5,20 @@ import "./style.css";
 const Tax = () => {
   return (
     <div className="bg-dark-500 py-20 tax">
-      <img src={Elipse} alt="" className="ellipse" />
+      <img src={Elipse} alt="" className="ellipse" data-aos="fade-right" />
       <div className="container">
         <div>
           <Title title="Baby Shinja Tax" backtext="TAX" />
         </div>
         <div className="grid gap-y-10 md:grid-cols-2 mt-40 items-center relative z-10">
-          <div className="">
+          <div className="" data-aos="fade-right" data-aos-delay="300">
             <img
               src={Shinja}
               alt=""
               className="max-w-xs h-auto mx-auto w-full"
             />
           </div>
-          <div className="grid grid-cols-1 gap-y-8">
+          <div className="grid grid-cols-1 gap-y-8" data-aos="fade-left">
             <TextBox />
             <TextBox text1="4%" text2="Liquidity" />
             <TextBox text1="4%" text2="Marketing" />

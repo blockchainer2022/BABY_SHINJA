@@ -49,7 +49,11 @@ const Platforms = () => {
         <Title title="Baby Shinja’s Upcoming Platforms" backtext="PLATFORM" />
         <div className="grid grid-flow-row gap-y-10 mt-20">
           {data.map((val, i) => (
-            <div key={i} className="bg-dark-600 p-8 rounded-md">
+            <div
+              key={i}
+              className="bg-dark-600 p-8 rounded-md"
+              data-aos="fade-up"
+            >
               <div className="flex items-center">
                 <div>
                   <img src={val.image} alt="" />
@@ -69,6 +73,8 @@ const Platforms = () => {
             <div
               key={i}
               className="bg-dark-600 text-center rounded-xl text-white p-8 px-6 pb-10 cursor-pointer platform-card"
+              data-aos="fade-up"
+              data-aos-delay={`${200 * i}`}
             >
               <div className="flex justify-center">
                 <val.icon />

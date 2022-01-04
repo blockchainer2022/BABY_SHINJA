@@ -60,7 +60,10 @@ const Roadmap = () => {
           ))}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className=" bg-dark-500 p-6 py-8  mt-10 rounded-xl transition-all duration-500">
+          <div
+            className=" bg-dark-500 p-6 py-8  mt-10 rounded-xl transition-all duration-500"
+            data-aos="fade-right"
+          >
             {roadmapData[currentActive].map((val, i) => (
               <div
                 className="flex items-center mb-2 transition-all duration-500"
@@ -71,7 +74,7 @@ const Roadmap = () => {
               </div>
             ))}
           </div>
-          <div className="mt-10">
+          <div className="mt-10" data-aos="fade-left">
             <img src={Shinja} alt="" className="mx-auto max-w-xs w-full" />
           </div>
         </div>

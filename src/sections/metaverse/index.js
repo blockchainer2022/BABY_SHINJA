@@ -14,10 +14,13 @@ const Metaverse = () => {
           </p>
         </div>
         <div className=" grid grid-cols-1 gap-y-10 lg:gap-y-0 lg:grid-cols-2 gap-4 items-center mt-16">
-          <div>
+          <div data-aos="fade-right">
             <img src={Image} alt="" className="mx-auto max-w-sm w-full " />
           </div>
-          <div className="text-center lg:text-left max-w-xl lg:max-w-auto mx-auto lg:mx-0 w-full lg:w-auto">
+          <div
+            className="text-center lg:text-left max-w-xl lg:max-w-auto mx-auto lg:mx-0 w-full lg:w-auto"
+            data-aos="fade-left"
+          >
             <p className="text-sm capitalize font-normal mt-6 text-dark-300">
               Bringing the community together in one engaging and immersive
               metaverse ecosystem, aka Captain Inuverse. A play to earn Inu
