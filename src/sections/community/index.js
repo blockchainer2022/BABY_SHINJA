@@ -13,7 +13,7 @@ const Community = () => {
           </h4>
           <div className="">
             <button
-              className="bg-gray items-center py-4 text-blue-600 flex justify-center rounded-lg w-full text-center text-xl font-medium"
+              className="bg-gray items-center py-4 text-primary-500 flex justify-center rounded-lg w-full text-center text-xl font-medium"
               data-aos="fade-left"
             >
               <span>
