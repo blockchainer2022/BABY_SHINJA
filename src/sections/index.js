@@ -1,0 +1,9 @@
+export { default as Banner } from "./banner";
+export { default as Mission } from "./mission";
+export { default as Platforms } from "./platforms";
+export { default as Metaverse } from "./metaverse";
+export { default as Tokenomics } from "./tokenomics";
+export { default as Tax } from "./tax";
+export { default as Roadmap } from "./roadmap";
+export { default as Team } from "./team";
+export { default as Community } from "./community";

@@ -1,0 +1,14 @@
+.tax {
+  position: relative;
+}
+.ellipse {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .ellipse {
+    display: none;
+  }
+}

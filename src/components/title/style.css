@@ -1,0 +1,33 @@
+.section-title {
+  position: relative;
+}
+.section-title h2 {
+  position: relative;
+  z-index: 3;
+}
+.section-title .title-back {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.1;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  font-size: 80px;
+  font-weight: bold;
+  word-break: keep-all;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .section-title .title-back {
+    font-size: 60px;
+  }
+  .section-title h2 {
+  }
+}
+
+@media (max-width: 400px) {
+  .section-title .title-back {
+    font-size: 40px;
+  }
+}

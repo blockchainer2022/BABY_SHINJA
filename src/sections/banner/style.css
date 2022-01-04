@@ -1,0 +1,28 @@
+.banner {
+  min-height: 90vh;
+  background-image: url(../../assets/images/banner-bg.png);
+  background-size: cover;
+  background-position: left top;
+}
+.banner-btn {
+  background: rgb(148, 148, 144);
+  background: linear-gradient(
+    180deg,
+    rgba(148, 148, 144, 01) 0%,
+    rgba(148, 148, 144, 1) 50%,
+    rgba(148, 148, 144, 0.5) 100%
+  );
+  backdrop-filter: blur(40px);
+  box-shadow: 0px 48px 60px rgb(119 118 156 / 30%);
+  padding: 10px 20px;
+  border-radius: 16px;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  margin: 0px auto 0 auto;
+  transform: translateY(-20px);
+}
+.banner-btn img {
+  width: 60px;
+  margin-right: 10px;
+}

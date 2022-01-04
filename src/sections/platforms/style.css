@@ -1,0 +1,13 @@
+.platform-card {
+  transition: all 0.5s;
+}
+.platform-card:hover {
+  background-color: #eeb949;
+  color: #222222;
+}
+.platform-card:hover svg * {
+  transition: all 0.5s;
+}
+.platform-card:hover svg * {
+  fill: #222222;
+}
