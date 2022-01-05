@@ -14,7 +14,7 @@ const data = [
   {
     image: Gaming,
     title: "Gaming",
-    text: "The game will be a merging environment through PVP battle gaming and open-world exploration. It will be a crossover battle game; therefore, our goal is to partner with other successful Shiba Inu projects and merge all-powerful Shiba Inu entities under one pack.",
+    text: "The game will be a merging environment through PVP battle gaming and open-world exploration. It will be a crossover battle game; therefore, our goal is to partner with other successful dog projects and merge all-powerful dog entities under one pack.",
   },
   {
     image: Blockchain,
