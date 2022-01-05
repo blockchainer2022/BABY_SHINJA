@@ -36,7 +36,12 @@ const Footer = () => {
               <ul className="grid grid-flow-col gap-x-4 mt-5 justify-start">
                 {socialList.map((v, i) => (
                   <li key={i}>
-                    <a href={v.link} className="py-4 d-block">
+                    <a
+                      href={v.link}
+                      className="py-4 d-block"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img src={v.icon} alt="" className="w-6" />
                     </a>
                   </li>
@@ -69,15 +74,15 @@ export default Footer;
 const socialList = [
   {
     icon: Instagram,
-    link: "#",
+    link: "https://instagram.com/babyshinja?utm_medium=copy_link",
   },
   {
     icon: Telegram,
-    link: "#",
+    link: "https://t.me/babyshinja",
   },
   {
     icon: Twitter,
-    link: "#",
+    link: "https://twitter.com/babyshinja?s=21",
   },
 ];
 

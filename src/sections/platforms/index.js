@@ -26,19 +26,27 @@ const data = [
 const data2 = [
   {
     icon: WhitePaper,
-    title: "Lightpaper",
+    title: "Litepaper",
+    link: "https://drive.google.com/file/d/1iUnPiyECP2I88V7EsXUfaKGBxSxJxPnw",
+    toolTip: false,
   },
   {
     icon: Contracts,
     title: "BscScan contract",
+    link: "",
+    toolTip: true,
   },
   {
     icon: Chart,
     title: "DEX Tools Chart",
+    link: "",
+    toolTip: true,
   },
   {
     icon: Report,
     title: "Audit Report",
+    link: "",
+    toolTip: true,
   },
 ];
 
@@ -70,9 +78,14 @@ const Platforms = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10">
           {data2.map((val, i) => (
-            <div
+            <a
+              // eslint-disable-next-line no-script-url
+              href={val.link ? val.link : "javascript:void(0);"}
               key={i}
-              className="bg-dark-600 text-center rounded-xl text-white p-8 px-6 pb-10 cursor-pointer platform-card"
+              className={`bg-dark-600 text-center rounded-xl text-white p-8 px-6 pb-10  platform-card  ${
+                val.toolTip ? "cursor-default" : "cursor-pointer"
+              }`}
+              data-tip={val.toolTip ? "Coming Soon" : ""}
               data-aos="fade-up"
               data-aos-delay={`${200 * i}`}
             >
@@ -80,7 +93,7 @@ const Platforms = () => {
                 <val.icon />
               </div>
               <h6 className="text-3xl font-medium mt-6">{val.title}</h6>
-            </div>
+            </a>
           ))}
         </div>
       </div>

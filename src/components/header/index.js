@@ -52,12 +52,15 @@ const Header = () => {
             ))}
           </ul>
         </div>
-        <button
+        <a
           className=" cursor-pointer text-2xl md:hidden "
+          target="_blank"
+          rel="noreferrer"
+          href="https://t.me/babyshinja"
           // onClick={menuHandler}
         >
           <img src={Telegram} alt="" className="w-8" />
-        </button>
+        </a>
       </div>
       <div
         className={`mobile-menu md:hidden  ${show ? "active" : ""}`}
@@ -84,7 +87,12 @@ const Header = () => {
         <ul className="flex md:hidden">
           {socialList.map((v, i) => (
             <li key={i}>
-              <a href={v.link} className="mx-4 py-4 d-block">
+              <a
+                href={v.link}
+                target="_blank"
+                rel="noreferrer"
+                className="mx-4 py-4 d-block"
+              >
                 <img src={v.icon} alt="" className="w-6 mx-2" />
               </a>
             </li>
@@ -119,14 +127,14 @@ const linkList = [
 const socialList = [
   {
     icon: Instagram,
-    link: "#",
+    link: "https://instagram.com/babyshinja?utm_medium=copy_link",
   },
   {
     icon: Telegram,
-    link: "#",
+    link: "https://t.me/babyshinja",
   },
   {
     icon: Twitter,
-    link: "#",
+    link: "https://twitter.com/babyshinja?s=21",
   },
 ];

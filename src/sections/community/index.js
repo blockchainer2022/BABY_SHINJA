@@ -12,7 +12,10 @@ const Community = () => {
             community and let's ride together to the Dog Universe!
           </h4>
           <div className="">
-            <button
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://t.me/babyshinja"
               className="bg-gray items-center py-4 text-primary-500 flex justify-center rounded-lg w-full text-center text-xl font-medium"
               data-aos="fade-left"
             >
@@ -20,7 +23,7 @@ const Community = () => {
                 <FaTelegramPlane />
               </span>
               <span className="inline-block ml-2">Join Telegram</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>

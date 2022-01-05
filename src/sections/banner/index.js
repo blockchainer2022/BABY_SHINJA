@@ -7,15 +7,15 @@ import Twitter from "../../assets/images/twitter.png";
 const socialList = [
   {
     icon: Instagram,
-    link: "#",
+    link: "https://instagram.com/babyshinja?utm_medium=copy_link",
   },
   {
     icon: Telegram,
-    link: "#",
+    link: "https://t.me/babyshinja",
   },
   {
     icon: Twitter,
-    link: "#",
+    link: "https://twitter.com/babyshinja?s=21",
   },
 ];
 const Banner = () => {
@@ -33,9 +33,14 @@ const Banner = () => {
             <span>OF THE DOG UNIVERSE</span>
           </h1>
           <div className="grid  sm:grid-flow-col gap-4 mt-10 justify-center lg:justify-start">
-            <button className="bg-white max-w-max text-dark-300 border-primary-500 border uppercase text-base py-3 px-10 font-semibold rounded-md mx-auto sm:mx-0">
+            <a
+              href="https://drive.google.com/file/d/1iUnPiyECP2I88V7EsXUfaKGBxSxJxPnw"
+              target="_blank"
+              rel="noreferrer"
+              className="bg-white max-w-max text-dark-300 border-primary-500 border uppercase text-base py-3 px-10 font-semibold rounded-md mx-auto sm:mx-0"
+            >
               READ LITEPAPER
-            </button>
+            </a>
             <button className="bg-primary-500 max-w-max text-white border-primary-500 border uppercase text-base py-3 px-8 font-semibold rounded-md  mx-auto sm:mx-0">
               VIEW CHART
             </button>
@@ -50,7 +55,12 @@ const Banner = () => {
           <ul className="flex justify-center  -mt-5">
             {socialList.map((v, i) => (
               <li key={i}>
-                <a href={v.link} className="mx-4 py-4 d-block">
+                <a
+                  href={v.link}
+                  className="mx-4 py-4 d-block"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={v.icon} alt="" className="w-6 mx-2" />
                 </a>
               </li>
