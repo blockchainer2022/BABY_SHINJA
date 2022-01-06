@@ -8,22 +8,22 @@ import Team4 from "../../assets/images/team4.png";
 const data2 = [
   {
     icon: Team1,
-    title: "Baby Shinja",
+    title: "Meta Ninja",
     text: "TBA soon.",
   },
   {
     icon: Team2,
-    title: "Baby Shinja",
+    title: "Meta Ninja",
     text: "TBA soon.",
   },
   {
     icon: Team3,
-    title: "Baby Shinja",
+    title: "Meta Ninja",
     text: "TBA soon.",
   },
   {
     icon: Team4,
-    title: "Baby Shinja",
+    title: "Meta Ninja",
     text: "TBA soon.",
   },
 ];
@@ -32,7 +32,7 @@ const Team = () => {
   return (
     <div className="platforms py-20 bg-dark-500 min-h-screen">
       <div className="container">
-        <Title title="Baby Shinja Team" backtext="TEAM" />
+        <Title title="Meta Ninja Team" backtext="TEAM" />
         <p className="text-white  font-bold text-lg text-center mt-6">
           All supported by the loving Captain Inu #InuForce community
         </p>

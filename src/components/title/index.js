@@ -1,6 +1,6 @@
 import "./style.css";
 const Title = ({
-  title = "Baby Shinja’s Mission",
+  title = "Meta Ninja’s Mission",
   backtext = "MISSION",
   black = false,
 }) => {

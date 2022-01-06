@@ -16,7 +16,7 @@ const Footer = () => {
             <div>
               <img src={Logo} alt="" />
               <p className="font-medium text-white mt-2">
-                Baby Shinja is an Defender of The Dog Universe
+                Meta Ninja is an Defender of The Dog Universe
               </p>
             </div>
             {/* <div className=" col-span-2">
@@ -24,7 +24,7 @@ const Footer = () => {
                 Get In Touch
               </h3>
               <p className="font-medium text-white mt-5 text-sm">
-                Want to stay up to date With the Baby Shinja? Feel free to Put
+                Want to stay up to date With the Meta Ninja? Feel free to Put
                 the email address and hit a Subscribe button to stay Up To Date
                 with Us.
               </p>
@@ -63,7 +63,7 @@ const Footer = () => {
           </div> */}
         </div>
         <div className="text-center bg-dark-400 text-white py-4 mt-10">
-          <p>Copyrights © 2021 Baby Shinja</p>
+          <p>Copyrights © 2021 Meta Ninja</p>
         </div>
       </div>
     </>

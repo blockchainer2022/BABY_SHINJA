@@ -9,7 +9,7 @@ const data = [
   {
     image: Education,
     title: "Education",
-    text: "A new approach to crypto education and entertainment, offering comics including adventures of Baby Shinja, featuring crypto influencers & the latest news in the blockchain scene",
+    text: "A new approach to crypto education and entertainment, offering comics including adventures of Meta Ninja, featuring crypto influencers & the latest news in the blockchain scene",
   },
   {
     image: Gaming,
@@ -54,7 +54,7 @@ const Platforms = () => {
   return (
     <div className="platforms py-20 bg-dark-500 min-h-screen">
       <div className="container">
-        <Title title="Baby Shinja’s Upcoming Platforms" backtext="PLATFORM" />
+        <Title title="Meta Ninja’s Upcoming Platforms" backtext="PLATFORM" />
         <div className="grid grid-flow-row gap-y-10 mt-20">
           {data.map((val, i) => (
             <div

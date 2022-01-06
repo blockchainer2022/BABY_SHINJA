@@ -26,7 +26,7 @@ const Banner = () => {
           className="text-center lg:text-left order-2 lg:order-1"
           data-aos="fade-right"
         >
-          <h2 className="uppercase text-2xl text-primary-400">Baby Shinja</h2>
+          <h2 className="uppercase text-2xl text-primary-400">Meta Ninja</h2>
           <h1 className="uppercase text-5xl text-white font-bold">
             <span className="text-primary-500">DEFENDER</span>
             <br />

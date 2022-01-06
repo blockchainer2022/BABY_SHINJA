@@ -8,7 +8,7 @@ const Tax = () => {
       <img src={Elipse} alt="" className="ellipse" data-aos="fade-right" />
       <div className="container">
         <div>
-          <Title title="Baby Shinja Tax" backtext="TAX" />
+          <Title title="Meta Ninja Tax" backtext="TAX" />
         </div>
         <div className="grid gap-y-10 md:grid-cols-2 mt-40 items-center relative z-10">
           <div className="" data-aos="fade-right" data-aos-delay="300">

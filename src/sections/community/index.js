@@ -4,11 +4,11 @@ const Community = () => {
   return (
     <div className="py-20 bg-dark-500 ">
       <div className="container">
-        <Title title="Baby Shinja Community" backtext="COMMUNITY" />
+        <Title title="Meta Ninja Community" backtext="COMMUNITY" />
 
         <div className="grid md:grid-cols-2 gap-y-10 mt-28 items-end">
           <h4 className="text-4xl font-bold text-white" data-aos="fade-right">
-            Join the <span className="text-primary-500">Baby Shinja</span>{" "}
+            Join the <span className="text-primary-500">Meta Ninja</span>{" "}
             community and let's ride together to the Dog Universe!
           </h4>
           <div className="">

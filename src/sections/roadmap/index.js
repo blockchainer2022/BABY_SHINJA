@@ -18,14 +18,14 @@ const Roadmap = () => {
     [
       "Litepaper",
       "AMAs",
-      " Baby Shinja Warriors",
+      " Meta Ninja Warriors",
       "Social Ads",
       " Nobi Wallet Prototype",
     ],
     [
       "Staking",
       "NFTs",
-      "Baby Shinja Game",
+      "Meta Ninja Game",
       "Exchanges R1",
       "Lbank",
       "Bitmart",
@@ -46,7 +46,7 @@ const Roadmap = () => {
   return (
     <div className="py-20">
       <div className="container">
-        <Title title="Baby Shinja Roadmap" backtext="ROADMAP" />
+        <Title title="Meta Ninja Roadmap" backtext="ROADMAP" />
         <div className="border-b-2 border-primary-500 grid justify-start grid-flow-col mt-20">
           {[1, 2, 3, 4].map((val, i) => (
             <div

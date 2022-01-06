@@ -25,7 +25,7 @@ const Tokenomics = () => {
   return (
     <div className=" py-20 bg-dark-500 ">
       <div className="container">
-        <Title title="Baby Shinja Tokenomics" backtext="TOKENOMICS" />
+        <Title title="Meta Ninja Tokenomics" backtext="TOKENOMICS" />
 
         <div className="grid grid-cols-1  md:grid-cols-3 gap-8 mt-20">
           {data2.map((val, i) => (
