@@ -1,9 +1,10 @@
 import "./style.css";
-import Shinja from "../../assets/images/banner-right.png";
+// import Shinja from "../../assets/images/banner-right.png";
 import uniswap from "../../assets/images/uniswap.png";
 import Instagram from "../../assets/images/insta.png";
 import Telegram from "../../assets/images/tele.png";
 import Twitter from "../../assets/images/twitter.png";
+import Video from "../../assets/banner.mp4";
 const socialList = [
   {
     icon: Instagram,
@@ -47,12 +48,22 @@ const Banner = () => {
           </div>
         </div>
         <div className="lg:order-2" data-aos="fade-left">
-          <img src={Shinja} alt="" className=" max-w-sm w-full mx-auto" />
-          <button className="flex items-center banner-btn">
+          {/* <img src={Shinja} alt="" className=" max-w-sm w-full mx-auto" /> */}
+          <video
+            autoPlay={true}
+            loop={true}
+            muted={true}
+            playsInline={true}
+            className="mx-auto  w-full"
+            // poster={Doge}
+          >
+            <source src={Video} type="video/mp4"></source>
+          </video>
+          <button className="flex items-center banner-btn ">
             <img src={uniswap} alt="" />
             <p>Buy On PancakeSwap</p>
           </button>
-          <ul className="flex justify-center  -mt-5">
+          <ul className="flex justify-center  -mt-24 relative z-10">
             {socialList.map((v, i) => (
               <li key={i}>
                 <a

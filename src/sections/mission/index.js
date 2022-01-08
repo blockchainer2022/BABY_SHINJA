@@ -3,7 +3,7 @@ import Title from "../../components/title";
 import Image from "../../assets/images/mission-left.png";
 const Mission = () => {
   return (
-    <div className="py-20 mission">
+    <div className="py-20 mission" id="story">
       <div className="container">
         <div>
           <Title />
