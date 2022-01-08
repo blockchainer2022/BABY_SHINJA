@@ -27,3 +27,8 @@
   width: 40px;
   margin-right: 10px;
 }
+@media (max-width: 500px) {
+  .banner-btn {
+    transform: translateY(-60px);
+  }
+}

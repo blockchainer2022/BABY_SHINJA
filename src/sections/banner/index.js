@@ -63,7 +63,7 @@ const Banner = () => {
             <img src={uniswap} alt="" />
             <p>Buy On PancakeSwap</p>
           </button>
-          <ul className="flex justify-center  -mt-24 relative z-10">
+          <ul className="flex justify-center -mt-16  sm:-mt-24 relative z-10">
             {socialList.map((v, i) => (
               <li key={i}>
                 <a
