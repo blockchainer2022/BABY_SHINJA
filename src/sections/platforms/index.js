@@ -27,7 +27,7 @@ const data2 = [
   {
     icon: WhitePaper,
     title: "Litepaper",
-    link: "https://drive.google.com/file/d/1iUnPiyECP2I88V7EsXUfaKGBxSxJxPnw",
+    link: "https://drive.google.com/file/d/16T_3D1I5BSjuakmwJsPIzIve0XImb3TO/view?usp=sharing",
     toolTip: false,
   },
   {

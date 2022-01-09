@@ -15,7 +15,7 @@ const Community = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://t.me/babyshinja"
+              href="https://t.me/metaninjaofficial"
               className="bg-gray items-center py-4 text-primary-500 flex justify-center rounded-lg w-full text-center text-xl font-medium"
               data-aos="fade-left"
             >
