@@ -3,6 +3,8 @@ import Title from "../../components/title";
 import Education from "../../assets/images/education.png";
 import Gaming from "../../assets/images/gaming.png";
 import Blockchain from "../../assets/images/blockchain.png";
+import WalletSmall from "../../assets/images/wallet_icon_small.png";
+
 import { WhitePaper, Chart, Contracts, Report } from "./Icons";
 
 const data = [
@@ -20,6 +22,11 @@ const data = [
     image: Blockchain,
     title: "Shinari Blockchain",
     text: "The Shinari Blockchain will be a scalable EVM compatible blockchain that can process fast TX with minimal gas fees.",
+  },
+  {
+    image: WalletSmall,
+    title: "Wallet",
+    text: "All chain in one with Two Factor Authentication (2FA)",
   },
 ];
 
