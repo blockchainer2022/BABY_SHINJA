@@ -18,8 +18,8 @@ const data = [
   },
   {
     image: Blockchain,
-    title: "Blockchain",
-    text: "We will be Starting to Devlop a Own Blockchain.",
+    title: "Shinari Blockchain",
+    text: "The Shinari Blockchain will be a scalable EVM compatible blockchain that can process fast TX with minimal gas fees.",
   },
 ];
 
