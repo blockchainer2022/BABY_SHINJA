@@ -21,7 +21,7 @@ const Roadmap = () => {
       "AMAs",
       " Meta Ninja Warriors",
       "Social Ads",
-      "Nobi Change to ONARI",
+      "Onari Wallet Prototype",
     ],
     [
       "Staking",
