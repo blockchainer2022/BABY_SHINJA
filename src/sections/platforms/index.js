@@ -25,8 +25,8 @@ const data = [
   },
   {
     image: WalletSmall,
-    title: "Wallet",
-    text: "All chain in one with Two Factor Authentication (2FA)",
+    title: "Onari Wallet",
+    text: "Multichain Metaverse Wallet With NFT Intagration, Stablecoin Staking For Passive Income & 2FA Security",
   },
 ];
 
@@ -34,7 +34,7 @@ const data2 = [
   {
     icon: WhitePaper,
     title: "Litepaper",
-    link: "https://drive.google.com/file/d/16T_3D1I5BSjuakmwJsPIzIve0XImb3TO/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1_2wM_cejPCJMRgUyAsoSUlHKfJRAuNQD/view?usp=drivesdk",
     toolTip: false,
   },
   {

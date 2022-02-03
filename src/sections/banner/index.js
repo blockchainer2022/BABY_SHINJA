@@ -35,7 +35,7 @@ const Banner = () => {
           </h1>
           <div className="grid  sm:grid-flow-col gap-4 mt-10 justify-center lg:justify-start">
             <a
-              href="https://drive.google.com/file/d/16T_3D1I5BSjuakmwJsPIzIve0XImb3TO/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_2wM_cejPCJMRgUyAsoSUlHKfJRAuNQD/view?usp=drivesdk"
               target="_blank"
               rel="noreferrer"
               className="bg-white max-w-max text-dark-300 border-primary-500 border uppercase text-base py-3 px-10 font-semibold rounded-md mx-auto sm:mx-0"

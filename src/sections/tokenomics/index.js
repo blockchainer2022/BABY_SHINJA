@@ -7,7 +7,7 @@ const data2 = [
   {
     icon: Fairlaunch,
     title: "Fair Launch",
-    text: "We believe in fair launching when it comes to Token launches. This means NO Presales, No team tokens and providing adequate notice for buyers ahead of launch to purchase $INJA.",
+    text: "We believe in fair launching when it comes to Token launches. This means NO Presales, No team tokens and providing adequate notice for buyers ahead of launch to purchase $NINJA.",
   },
   {
     icon: Safe,

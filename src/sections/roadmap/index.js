@@ -8,19 +8,20 @@ const Roadmap = () => {
   const [currentActive, setCurrentActive] = useState(0);
   const roadmapData = [
     [
-      " Launch Website",
-      " Launch Socials",
+      "Launch Website",
+      "Launch Socials",
       "Test-net Launch",
       "PancakeSwap Launch",
       "Audit",
-      " Marketing",
+      "Marketing",
+      "Coin Gecko & Coin Market Cap Listing",
     ],
     [
       "Litepaper",
       "AMAs",
       " Meta Ninja Warriors",
       "Social Ads",
-      " Nobi Wallet Prototype",
+      "Nobi Change to ONARI",
     ],
     [
       "Staking",
@@ -38,9 +39,9 @@ const Roadmap = () => {
       "Okex",
       "Huobi",
       "Binance",
-      "Nobi Wallet (Q2 2022)",
-      "Nobi Blockchain Test-net (Q3 2022)",
-      "Nobi Blockchain Main-net (Q4 2022)",
+      "ONARI Wallet (Q2 2022)",
+      "SHINARI Blockchain Test-net (Q3 2022)",
+      "SHINARI Blockchain Main-net (Q4 2022)",
     ],
   ];
   return (

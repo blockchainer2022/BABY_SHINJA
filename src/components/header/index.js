@@ -123,18 +123,17 @@ const linkList = [
     link: "#contact",
   },
 ];
-
 const socialList = [
   {
     icon: Instagram,
-    link: "https://instagram.com/babyshinja?utm_medium=copy_link",
+    link: "https://instagram.com/metaninjaofficial",
   },
   {
     icon: Telegram,
-    link: "https://t.me/babyshinja",
+    link: "https://t.me/metaninjaofficial",
   },
   {
     icon: Twitter,
-    link: "https://twitter.com/babyshinja?s=21",
+    link: "https://twitter.com/metaninjacoin",
   },
 ];

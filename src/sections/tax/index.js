@@ -24,7 +24,7 @@ const Tax = () => {
             <TextBox text1="4%" text2="Marketing" />
             <TextBox
               text1="2%"
-              text2="Manual BuyBack ( Tokens Received from Manual BuyBack will Be Burned )"
+              text2="Manual BuyBack ( Tokens Received from Manual BuyBack will Be Burned ) / Or used for stacking"
             />
             <TextBox
               text1="1%"
