@@ -67,7 +67,15 @@ const Banner = () => {
           </video>
           <button className="flex items-center banner-btn ">
             <img src={uniswap} alt="" />
-            <p>Buy On PancakeSwap</p>
+            <p></p>
+             <a
+              href="https://pancakeswap.finance/swap?inputCurrency=0xebf963a8f11631944de83e2d18773454ef45ae6c"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Buy On PancakeSwap
+            </a>
+            
           </button>
           <ul className="flex justify-center -mt-16  sm:-mt-24 relative z-10">
             {socialList.map((v, i) => (
