@@ -5,7 +5,7 @@ import Twitter from "../../assets/images/twitter.png";
 // import { FaAngleDown } from "react-icons/fa";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import "./style.css";
-const account = "";
+const account = "0xebf963a8F11631944dE83E2D18773454EF45aE6C";
 const Footer = () => {
   return (
     <>
