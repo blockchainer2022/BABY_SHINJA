@@ -42,8 +42,7 @@ const Banner = () => {
             >
               READ LITEPAPER
             </a>
-            <button className="bg-primary-500 max-w-max text-white border-primary-500 border uppercase text-base py-3 px-8 font-semibold rounded-md  mx-auto sm:mx-0">
-              <a
+            <a
               href="https://www.dextools.io/app/bsc/pair-explorer/0x8636a6349b73bcc3c7848df9ac2cc9b3ec66179c"
               target="_blank"
               rel="noreferrer"
@@ -51,7 +50,7 @@ const Banner = () => {
             >
               VIEW CHART
             </a>
-            </button>
+       
           </div>
         </div>
         <div className="lg:order-2" data-aos="fade-left">
