@@ -52,8 +52,8 @@ const data2 = [
   {
     icon: Report,
     title: "Audit Report",
-    link: "",
-    toolTip: true,
+    link: "https://drive.google.com/file/d/1v82AFqSGlnoC4YMRUn77yM_Yln0NIQOy/view?usp=drivesdk",
+    toolTip: false,
   },
 ];
 
